@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Spring Boot - sftp upload example</h1>
+
+<form method="POST" enctype="multipart/form-data" id="fileUploadForm">
+    <input type="file" name="files"/><br/><br/>
+    <input type="file" name="files"/><br/><br/>
+    <input type="submit" value="Submit" id="btnSubmit"/>
+</form>
+
+<h1>Upload Result</h1>
+<pre>
+    <span id="result"></span>
+</pre>
+
+<form method="POST" enctype="multipart/form-data" id="downloadForm">
+    <input type="text" name="fileName" id="fileName"/><br/><br/>
+    <input type="submit" value="Submit" id="downloadSubmit"/>
+</form>
+
+<script type="text/javascript" src="webjars/jquery/2.2.4/jquery.min.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/download.js"></script>
+
+</body>
+</html>

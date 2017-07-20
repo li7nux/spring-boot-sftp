@@ -1,0 +1,15 @@
+spring:
+  http:
+    multipart:
+      max-file-size: 1MB
+      max-request-size: 1MB
+sftp:
+  host: 121.0.0.1
+  port: 22
+  user: sftp
+  password:
+  directory:
+  privateKeyPassPhrase:
+  privateKey:
+server:
+  port: 9001
